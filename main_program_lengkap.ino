@@ -11,8 +11,8 @@ const char* default_ssid = "Nama_WiFi_Awal";
 const char* default_pass = "Password_WiFi_Awal";
 
 // === Telegram ===
-const char* botToken = "7297079456:AAFkc4N7eCOqIIEcGz3xtwDiv4DG1BJE0pM";
-const String ADMIN_ID = "1268342014";
+const char* botToken = "API BOT"; //API Bot from BotFather
+const String ADMIN_ID = "Admin ID"; //Tele User ID from ID bot
 WiFiClientSecure secured_client;
 UniversalTelegramBot bot(botToken, secured_client);
 
